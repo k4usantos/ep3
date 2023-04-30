@@ -13,10 +13,10 @@ body {
 
 .grad_h{
     grid-area: cabeca;
-    display: inline;
-    background-color: #8E8080;
-    
+    background-color: #8E8080;    
+    min-height: 150px;
 }
+
 
 .grad_m{
     grid-area: princi;
@@ -26,6 +26,7 @@ body {
     border-style: groove;
     margin-bottom: 3%;
     margin-top: 3%;
+    margin-right: 2%;
     line-height: 1.5;
     padding: 10px;
 }
@@ -50,6 +51,7 @@ body {
     border-style: groove;
     line-height: 1.5;
     padding-top: 5px;
+    padding-bottom: 5%;
 }
 
 .grad_f{
